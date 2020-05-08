@@ -1,5 +1,5 @@
 # health_indicator_2020
-Data and experiment replication code for ASE2020 submission
+Data and experiment code for replication of project health study.
 
 ## Experiment Replication
 
