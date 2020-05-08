@@ -1,6 +1,7 @@
 # health_indicator_2020
-The [paper](https://github.com/randompeople404/health_indicator_2020/tree/master/data/data_use) is  submitted to ASE 2020.
 Data and experiment code for replication of project health study.
+
+The [paper](https://github.com/randompeople404/health_indicator_2020/tree/master/data/data_use) is  submitted to ASE 2020.
 
 ## Experiment Replication
 
