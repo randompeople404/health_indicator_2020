@@ -7,7 +7,7 @@ To reproduce the experiment results, execute `main.py` in directory `experiments
 
 We store all experiment data in directory `data/data_use` [Data Link](https://github.com/randompeople404/health_indicator_2020/tree/master/data/data_use), this data is selected using the criteria in `repo/repo_selection.py` (Table 2) and collected using `repo/repo_miner/mining_runner.py`, the stats information (Table 5) of data can be obtained by excuting `data/data_stats.py`.
 
-To represent the results of RQ1, run `stats.py` in directory `experiments`, the results (Table 6-9) are stored in `result_stats/stats.csv`
+To represent the results of RQ1, run `stats.py` in directory `experiments`, the results (Table 6-9) are stored in `result_stats/stats.csv`.
 
 To represent the results of RQ2, run `internal_feature_select.py` in directory `validation`, to get result in (Table 11), note that our methods use a modified version of `sklearn.tree.export_text`, please see comments in code for details.
 
