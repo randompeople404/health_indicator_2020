@@ -3,6 +3,16 @@ Data and experiment code for replication of project health study.
 
 The [paper](https://github.com/randompeople404/health_indicator_2020/blob/master/Predicting%20Project%20Health%20for%20Open%20Source%20Projects.pdf) is  submitted to ASE 2020. 3 RQs asked in the paper can be answered here.
 
+## Abstract
+
+Software developed in some public platforms are sources of data that can be used to make prediction about those projects. While the activity of a single developer may be random and hard to predict, when large groups of developers work together on software projects, the resulting behavior can be predicted with good accuracy. 
+
+To demonstrate this, we use 78,455 months of data from 1,628 GitHub projects to make various predictions about the current status of those projects (as of April 2020). We find that traditional estimation algorithms make many mistakes. Algorithms like k-nearest neighbors (KNN), support vector regression (SVR), random forest (RFT), linear regression (LNR), and regression trees (CART) have high error rates (usually more than 50% wrong, sometimes over 130% wrong, median values). But that error rate can be  greatly reduced using the DECART hyperparameter optimization. DECART is a differential evolution (DE) algorithm that tunes the CART data mining system to the particular details of a specific project.
+
+To the best of our knowledge, this is the largest study yet conducted, using the most recent data, for predicting multiple health indicators of open-source projects. Further, due to our use of hyperparameter optimization, it may be the most successful. Our predictions have less than 10% error (median value) which is much smaller than the errors seen in related work.
+
+Our results are a compelling argument for  open-sourced development. Companies that only build in-house proprietary products may be cutting themselves off from the information needed to reason about those projects.
+
 ## Experiment Replication
 
 To reproduce the experiment results, execute `main.py` in directory `experiments`, you will get all `n{a}g{b}m{c}.txt` file which stores the numeric experiment results in directory `result_experiment`. Here, `a` indicates which month to predict (1,3,6,12), `a` indicates which goal to predict (1-7) and `a` indicates which metrics from prediction (0, 1), the details about these parameters are commented in `main.py`. 
