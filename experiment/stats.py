@@ -118,5 +118,4 @@ if __name__ == '__main__':
 
     # filename_test01 = "n12g0m1.txt"
     # filename_test02 = "n12g1m1.txt"
-    #
     # repo_stats(filename_test01, path)
