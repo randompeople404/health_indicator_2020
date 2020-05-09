@@ -1,7 +1,7 @@
 # health_indicator_2020
 Data and experiment code for replication of project health study.
 
-The [paper](https://github.com/randompeople404/health_indicator_2020/blob/master/Predicting%20Project%20Health%20for%20Open%20Source%20Projects.pdf) is  submitted to ASE 2020. 3 RQs asked in the paper can be answered here.
+The [paper](https://github.com/randompeople404/health_indicator_2020/blob/master/HEALTH__ase2020%20(9).pdf) is  submitted to ASE 2020. 3 RQs asked in the paper can be answered here.
 
 ## Abstract
 
