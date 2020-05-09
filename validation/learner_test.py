@@ -114,7 +114,7 @@ def learner_check(Repo, Directory, metrics, repeats, goal, month):
 if __name__ == '__main__':
 
     path = r'../data/data_use/'
-    repo = "project_data (1).csv"
+    repo = "Project0001.csv"
     # path = r'../data/data_use/'
     # repo = "cantata_monthly.csv"
     # Bug point:

@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     from data.data_ready import *
     path = r'../data/data_use/'
-    repo = "project_data (1).csv"
+    repo = "Project0001.csv"
 
     dataset = data_github_monthly(repo, path, 1)
 

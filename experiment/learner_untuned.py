@@ -176,7 +176,7 @@ def LGR(dataset, month):
 if __name__ == '__main__':
     listA = []
     path = r'../data/data_use/'
-    repo = "project_data (1).csv"
+    repo = "Project0001.csv"
     for i in range(2):
         listA.append(CART(data_github_monthly(repo, path, 1), 1)[0])
     print(np.array(sorted(listA)).flatten())
